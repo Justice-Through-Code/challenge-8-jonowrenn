@@ -156,7 +156,7 @@ print(count_books())
 def search_by_author(author):
     book_list = []
     for book in books_with_details:
-        if author["author"]==author:
+        if book["author"]==author:
             book_list.append(book["title"])
 
     return book_list
